@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "ts-patch install",
     "build": "rspack build",
-    "lint": "eslint ./**/*.ts"
+    "lint": "eslint ./rspack.config.ts"
   },
   "repository": {
     "type": "git",
