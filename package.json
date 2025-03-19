@@ -1,0 +1,37 @@
+{
+  "name": "unplugin-typia-rspack-typing-issue",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "ts-patch install",
+    "build": "rspack build",
+    "lint": "eslint ./**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-Inventor/unplugin-typia-rspack-typing-issue.git"
+  },
+  "author": "Robot-Inventor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/unplugin-typia-rspack-typing-issue/issues"
+  },
+  "homepage": "https://github.com/Robot-Inventor/unplugin-typia-rspack-typing-issue#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@robot-inventor/tsconfig-base": "^6.0.0",
+    "@rspack/cli": "^1.2.8",
+    "@rspack/core": "^1.2.8",
+    "@ryoppippi/unplugin-typia": "^2.0.3",
+    "eslint": "^9.22.0",
+    "ts-patch": "^3.3.0",
+    "typescript": "~5.8.2",
+    "typescript-eslint": "^8.26.1"
+  },
+  "dependencies": {
+    "typia": "^8.0.3"
+  }
+}

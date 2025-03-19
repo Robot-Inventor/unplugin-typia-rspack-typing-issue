@@ -1,0 +1,16 @@
+{
+    "extends": "@robot-inventor/tsconfig-base/tsc.json",
+    "compilerOptions": {
+        "plugins": [
+            {
+                "transform": "typia/lib/transform"
+            }
+        ],
+        "strictNullChecks": true,
+        "strict": true,
+        "rootDir": "."
+    },
+    "include": [
+        "./**/*.ts"
+    ]
+}
